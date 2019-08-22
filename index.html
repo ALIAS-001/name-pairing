@@ -1,0 +1,33 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+    <link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>
+			Name Pairer
+		</h1>
+		<table>
+			<tr>
+				<td>
+					<input type='text' placeholder="name of participant" id='input' onkeydown='submit(event)' />
+				</td>
+				<td>
+					<input type='button' value='submit' id='submit' onclick='submit(event)'/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan = '2'>
+					<input type='button' value='finish' onclick='finish()'/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan = '2'>
+					<div class = 'output' id='out'>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
